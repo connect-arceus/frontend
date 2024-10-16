@@ -11,7 +11,7 @@ const Carousel = () => {
 
     return (
         <Fade duration={4000} arrows={false} cssClass="h-screen w-screen z-0">
-            {/* <img src={images[0]} className="h-full object-fit" alt="slide" /> */}
+            <img src={images[0]} className="h-full object-fit" alt="slide" />
             <img src={images[2]} className="h-full object-fit" alt="slide" />
         </Fade>
     );

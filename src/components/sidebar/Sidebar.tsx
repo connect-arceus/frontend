@@ -8,12 +8,11 @@ const Sidebar = () => {
                 <span>
                     <MenuIcon />
                 </span>
-                <span>MENU</span>
             </SheetTrigger>
-            <SheetContent side={"left"} className="w-1/2 bg-black">
+            <SheetContent side={"left"} className="w-1/2 bg-black border-none">
                 <div className="w-full h-full">
                     <div className="w-3/12 h-full">
-                    
+
                     </div>
                     <div className="flex-1 h-full">
 

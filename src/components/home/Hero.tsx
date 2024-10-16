@@ -12,10 +12,10 @@ const Hero = () => {
                     <div className="ml-[56rem] mt-80">
                         {/* TO CHANGE */}
                         <FadeIn transitionDuration={600}>
-                            <p className="text-[160px] tracking-tighter font-bold text-white/50">
+                            <p className="text-[160px] tracking-tighter font-bold text-white/70">
                                 TO SERVE
                             </p>
-                            <Link to={""} className="flex justify-end -mt-8 items-center gap-3 text-white font-bold text-2xl tracking-wide">
+                            <Link to={""} className="flex justify-end -mt-8 items-center gap-3 text-white/70 font-bold text-2xl tracking-wide">
                                 EXPLORE OUR SERVICES 
                                 <span>
                                     <ArrowRight />

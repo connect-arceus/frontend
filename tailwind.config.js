@@ -7,8 +7,15 @@ export default {
 		backgroundImage: {
 			"home-map": "url('/home-map-bg.jpg')"
 		},
-		textColor: {
+		backgroundColor: {
 			primary: "#FD2E17"
+		},
+		fontFamily: {
+			display: ["balboa", 'serif']
+		},
+		textColor: {
+			primary: "#FD2E17",
+			secondary: "#102694"
 		},
   		borderRadius: {
   			lg: 'var(--radius)',

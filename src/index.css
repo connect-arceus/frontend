@@ -8,6 +8,21 @@
   }
 }
 
+@layer base {
+    
+  @font-face {
+    font-family: "balboa";
+    src: url("/assets/fonts/balboa.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+}
+
+body {
+  background-color: black;
+}
 
 .each-fade {
   display: flex;
