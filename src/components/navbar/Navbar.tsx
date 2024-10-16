@@ -17,8 +17,8 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className="flex justify-center items-center gap-4">
-                <Button onClick={() => nav('/get-a-quote')} variant={"navbar"}>Get Quote</Button>
+            <div className="flex justify-center items-center gap-16">
+                <Button onClick={() => nav('/get-a-quote')} className="scale-110" variant={"navbar"}>Get Quote</Button>
                 <Sidebar />
             </div>
         </div>

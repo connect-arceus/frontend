@@ -6,7 +6,7 @@ const Sidebar = () => {
         <Sheet>
             <SheetTrigger className="text-white flex items-center gap-2">
                 <span>
-                    <MenuIcon />
+                    <MenuIcon size={28} />
                 </span>
             </SheetTrigger>
             <SheetContent side={"left"} className="w-1/2 bg-black border-none">
